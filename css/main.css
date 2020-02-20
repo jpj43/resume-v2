@@ -1,0 +1,103 @@
+body {
+    background: #ADD8E6;
+}
+.header {
+    grid-area: header;
+    background: pink; 
+        margin: auto;
+    padding: 1%;
+  }
+.name {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+  .main {
+    grid-area: main;
+     Background: pink; 
+      padding: 1%;
+      
+  }
+  .sidebar {
+    grid-area: sidebar;
+     background: darkblue; 
+      padding: 20%;
+  }
+
+.center {
+    text-align: center       
+}
+
+{
+   color: #040404;
+}
+
+body {
+    background-color: #39ff14;
+}
+
+h1 {
+    color: red;
+    font-family: sans-serif, 'Roboto', strong
+}
+
+
+.justify{
+    text-align: justify; 
+}
+
+
+.container {
+ 
+    border:thick double red;
+
+    margin: auto;
+     display: grid;
+    grid-template-columns: 25px auto 300px;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-rows: 400px auto;
+    /* grid-template-rows: repeat(3, 200px); */
+    /* grid-column-gap: 10px; */
+    /* grid-row-gap: 15px; */
+
+    grid-template-areas:
+    "header header header"
+    "main main sidebar"
+}
+
+.headshot { 
+text-align: center
+margin-top: 30px;
+
+}
+.lang {
+   text-align: center;  
+}
+.skills {
+    text-align: center 
+    
+}
+
+.ref { 
+    
+    text-align: center;
+}
+a{
+    
+    color: black
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline
+    color: red  
+    
+}
+.mylink: hover{
+    text-decoration: underline;
+    color: aqua 
+}
+
+
+
+
